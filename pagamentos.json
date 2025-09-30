@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1759192545570,
+    "accountId": 1,
+    "buyerPhone": "559285231368@c.us",
+    "preferenceId": "1339300911-6b521a49-a1b9-40bc-a7b1-6d420d00518f",
+    "paymentLink": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=1339300911-6b521a49-a1b9-40bc-a7b1-6d420d00518f",
+    "status": "pending",
+    "createdAt": "2025-09-30T00:35:45.570Z"
+  },
+  {
+    "id": 1759192714810,
+    "accountId": 1,
+    "buyerPhone": "559285231368@c.us",
+    "preferenceId": "1339300911-fb3798cc-f283-41a6-a541-08b8b18efd1d",
+    "paymentLink": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=1339300911-fb3798cc-f283-41a6-a541-08b8b18efd1d",
+    "status": "pending",
+    "createdAt": "2025-09-30T00:38:34.810Z"
+  },
+  {
+    "id": 1759192751678,
+    "accountId": 2,
+    "buyerPhone": "559285231368@c.us",
+    "preferenceId": "1339300911-1a0c5013-d143-43c8-abbb-4ed34bc8a4e7",
+    "paymentLink": "https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=1339300911-1a0c5013-d143-43c8-abbb-4ed34bc8a4e7",
+    "status": "pending",
+    "createdAt": "2025-09-30T00:39:11.678Z"
+  },
+  {
+    "id": 1759193217689,
+    "accountId": 1,
+    "buyerPhone": "559285231368@c.us",
+    "preferenceId": 128005766668,
+    "paymentLink": "00020126420014br.gov.bcb.pix0120jeisiel.ti@gmail.com52040000530398654041.995802BR5925INVESTIMENTSRM202303262056006Manaus62250521mpqrinter1280057666686304BBB2",
+    "status": "pending",
+    "createdAt": "2025-09-30T00:46:57.689Z"
+  }
+]
