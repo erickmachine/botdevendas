@@ -1,0 +1,60 @@
+# Bot WhatsApp - Vendas Valorant com Mercado Pago
+
+Bot profissional para venda de contas de Valorant via WhatsApp com pagamento automático integrado ao Mercado Pago.
+
+## Instalação
+
+1. Instale as dependências:
+\`\`\`bash
+npm install
+\`\`\`
+
+2. Configure suas credenciais do Mercado Pago no arquivo `config.js`
+
+3. Inicie o bot:
+\`\`\`bash
+npm start
+\`\`\`
+
+4. Escaneie o QR Code que aparecerá no terminal com seu WhatsApp
+
+## Comandos
+
+### Para Clientes:
+- `!contas` - Ver contas disponíveis
+- `!comprar [ID]` - Gerar link de pagamento seguro
+- `!ajuda` - Ver menu de ajuda
+
+### Para Admin (5592999652961):
+- `!addconta` - Adicionar nova conta (processo guiado)
+- `!removerconta [ID]` - Remover conta
+- `!listarcontas` - Ver todas as contas com dados completos
+
+## Pagamentos
+
+O bot gera automaticamente links de pagamento seguros via Mercado Pago que aceitam:
+- PIX (instantâneo)
+- Cartão de crédito
+- Boleto bancário
+
+Quando um cliente usa `!comprar [ID]`, o bot:
+1. Gera um link de pagamento exclusivo
+2. Notifica o admin sobre a tentativa de compra
+3. Registra o pagamento como pendente
+4. Envia o link para o cliente
+
+## Arquivos de Dados
+
+- `contas.json` - Contas cadastradas
+- `pagamentos.json` - Histórico de pagamentos
+
+## Segurança
+
+- Apenas o número 5592999652961 pode adicionar/remover contas
+- Dados de login são mostrados apenas para o admin após pagamento confirmado
+- Pagamentos processados via Mercado Pago (PCI compliant)
+- Todos os pagamentos são rastreados e registrados
+
+## Configuração do Mercado Pago
+
+As credenciais estão em `config.js`. Para produção, recomenda-se usar variáveis de ambiente.
